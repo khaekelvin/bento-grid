@@ -3,16 +3,23 @@ import React from "react";
 function Grid() {
   return (
     <>
-      <section className="container grid grid-cols-2 gap-5 mt-10 lg:mt-20 max-w-[1080px] mx-auto h-[70px]">
-        <div className=" bg-white rounded-xl flex flex-col col-span-1 row-span-1 gap-1">
-          1
+      <section className="container grid grid-cols-2 gap-5  max-w-[1080px] h-[700px] mx-auto text-black">
+        <div className=" bg-main-one rounded-3xl flex flex-col col-span-1 row-span-1 gap-1">
+          <div>
+            <p className="text-7xl">DESIGN MEETING</p>
+            <div className="flex">
+              <p>1</p>
+              <p>1</p>
+              <p>1</p>
+            </div>
+          </div>
         </div>
-        <div className=" bg-amber-600 rounded-xl flex flex-col col-span-1 row-span-1 gap-1">
-          2
-        </div>
+        <div className=" bg-main-two rounded-3xl flex flex-col col-span-1 row-span-2 gap-1"></div>
 
-        <div className=" bg-teal-950 rounded-xl flex flex-col col-span-1 row-span-2 gap-1">
-          3
+        <div className=" bg-main-two rounded-3xl flex flex-col col-span-1 row-span-1 gap-1">
+          <div>
+            <p>Design Meeting</p>
+          </div>
         </div>
       </section>
     </>

@@ -16,6 +16,8 @@ const config: Config = {
       colors: {
         "nav-bar" : "#3a3a3c",
         "main-body" : "#222224",
+        "main-one" : "#fef862",
+        "main-two" : "#e9e6ed",
       },
     },
   },
