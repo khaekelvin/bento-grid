@@ -4,8 +4,8 @@ import LogoSrc from "@/images/pfp1.png";
 function Nav() {
   return (
     <>
-      <div className="bg-slate-400">
-        <nav className="bg-slate-900  max-w-[1080px] mx-auto h-[70px]">
+      <div className="bg-nav-bar">
+        <nav className=" max-w-[1080px] mx-auto h-[70px]">
           <div className="flex justify-between items-center lg:mx-0 mx-5">
             <div className="flex">
               <img src={LogoSrc.src} alt="Logo" width={50} />
