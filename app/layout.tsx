@@ -18,7 +18,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="font-roboto">
-      <body>
+      <body className="bg-main-body">
         <Nav />
         <Grid />
       </body>
