@@ -6,10 +6,10 @@ import { FaTwitter, FaFacebook, FaInstagram } from "react-icons/fa";
 function Grid() {
   return (
     <>
-      <section className="container lg:grid lg:grid-cols-2 gap-5  max-w-[1080px] h-[700px] mx-auto text-black grid grid-cols-1 mt-5 lg:mt-0">
+      <section className="container lg:grid lg:grid-cols-2 gap-5  max-w-[1080px] h-[700px] mx-auto text-black grid grid-cols-1 mt-5 lg:mt-0 px-2 lg:px-0">
         <div className=" bg-main-one rounded-3xl flex flex-col col-span-1 row-span-1 gap-1 justify-center">
           <div className=" max-w-[500px] mx-auto ml-2">
-            <p className="lg:text-7xl text-5xl font-bold flex">
+            <p className="lg:text-7xl text-5xl font-bold flex mb-1">
               Discover <br></br> Your Style
             </p>
             <div className="flex justify-between flex-col">
