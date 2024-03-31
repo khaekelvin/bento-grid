@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import LogoSrc from "@/images/pfp2.png";
+import LogoSrc from "@/images/pfp5.svg";
 import { FaTwitter, FaFacebook, FaInstagram } from "react-icons/fa";
 
 function Grid() {
@@ -35,10 +35,17 @@ function Grid() {
             <img
               src={LogoSrc.src}
               alt="Logo"
-              className=" bg-black  object-fill"
-              width={100}
+              className="flex mx-auto justify-center  rounded-3xl mt-0 lg:mt-5  object-fill"
+              width={450}
             />
-            <button className="ml-3 text-lg content-center ">King</button>
+            <div className="flex justify-between mx-auto">
+              <button className="ml-3 text-lg content-center border border-black rounded-full w-28">
+                King
+              </button>
+              <button className="ml-3 text-lg content-center border border-black rounded-full w-28">
+                King
+              </button>
+            </div>
           </div>
         </div>
 
