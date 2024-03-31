@@ -10,7 +10,9 @@ function Nav() {
           <div className="flex justify-between items-center lg:mx-0 mx-5">
             <div className="flex">
               <img src={LogoSrc.src} alt="Logo" width={50} />
-              <p className="ml-3 text-lg content-center ">King</p>
+              <p className="ml-3 text-lg content-center  lg:content-center ">
+                King
+              </p>
             </div>
 
             <div className="flex items-center">

@@ -37,10 +37,9 @@ function Grid() {
             <img
               src={LogoSrc.src}
               alt="Logo"
-              className="rounded-3xl object-fill flex mx-auto justify-center mt-0 lg:mt-5"
-              width={480}
+              className="rounded-3xl object-fill flex mx-auto justify-center lg:w-[480px] w-[350px] mt-3 lg:mt-5"
             />
-            <div className="flex justify-between mb-5 mx-6 mt-2">
+            <div className="flex justify-between mb-1 mx-6 mt-2">
               <button className="text-lg content-center border-2 border-black rounded-full w-28 font-bold">
                 King
               </button>
@@ -50,12 +49,12 @@ function Grid() {
             </div>
           </div>
           <div className="flex flex-row mx-auto justify-between">
-            <div className="lg:flex w-[480px] justify-between hidden ">
+            <div className="flex lg:w-[480px] w-[340px] justify-between ">
               <div>
                 <img
                   src={LogoHol1.src}
                   alt="Logo"
-                  className="rounded-3xl object-fill lg:flex mx-auto justify-center mt-7 hidden"
+                  className="rounded-3xl object-fill flex mx-auto justify-center mt-7"
                   width={60}
                 />
               </div>
