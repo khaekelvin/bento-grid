@@ -17,7 +17,7 @@ function Grid() {
             <div className="flex justify-between flex-col">
               <div>
                 <p>
-                  At BentoGrid, we're more than just a clothing brand we're a
+                  At Hollow, we're more than just a clothing brand we're a
                   destination for fashion-forward individuals seeking style and
                   convenience.
                 </p>
