@@ -1,12 +1,14 @@
 "use client";
 import React from "react";
-import LogoSrc from "@/images/pfp5.svg";
+import LogoSrc from "@/images/pfp2.svg";
+import LogoHol from "@/images/final hollow.png";
+import LogoHol1 from "@/images/pfpp.png";
 import { FaTwitter, FaFacebook, FaInstagram } from "react-icons/fa";
 
 function Grid() {
   return (
     <>
-      <section className="container lg:grid lg:grid-cols-2 gap-5  max-w-[1080px] h-[700px] mx-auto text-black grid grid-cols-1 mt-5 lg:mt-0 px-2 lg:px-0">
+      <section className="container lg:grid lg:grid-cols-2 gap-5  max-w-[1080px] h-[700px] mx-auto text-black grid grid-cols-1 mt-5 lg:mt-28 px-2 lg:px-0">
         <div className=" bg-main-one rounded-3xl flex flex-col col-span-1 row-span-1 gap-1 justify-center">
           <div className=" max-w-[500px] mx-auto ml-2">
             <p className="lg:text-7xl text-5xl font-bold flex mb-1">
@@ -35,16 +37,37 @@ function Grid() {
             <img
               src={LogoSrc.src}
               alt="Logo"
-              className="flex mx-auto justify-center  rounded-3xl mt-0 lg:mt-5  object-fill"
-              width={450}
+              className="rounded-3xl object-fill flex mx-auto justify-center mt-0 lg:mt-5"
+              width={480}
             />
-            <div className="flex justify-between mx-auto">
-              <button className="ml-3 text-lg content-center border border-black rounded-full w-28">
+            <div className="flex justify-between mb-5 mx-6 mt-2">
+              <button className="text-lg content-center border-2 border-black rounded-full w-28 font-bold">
                 King
               </button>
-              <button className="ml-3 text-lg content-center border border-black rounded-full w-28">
-                King
+              <button className=" border-black rounded-3xl w-20 h-10 border-2">
+                <div className="rounded-full bg-black w-7 h-7 ml-11"></div>
               </button>
+            </div>
+          </div>
+          <div className="flex flex-row mx-auto justify-between">
+            <div className="lg:flex w-[480px] justify-between hidden ">
+              <div>
+                <img
+                  src={LogoHol1.src}
+                  alt="Logo"
+                  className="rounded-3xl object-fill lg:flex mx-auto justify-center mt-7 hidden"
+                  width={60}
+                />
+              </div>
+
+              <div>
+                <img
+                  src={LogoHol.src}
+                  alt="Logo"
+                  className="rounded-3xl object-fill flex mx-auto justify-center"
+                  width={100}
+                />
+              </div>
             </div>
           </div>
         </div>
@@ -52,7 +75,7 @@ function Grid() {
         <div className=" bg-main-two rounded-3xl flex flex-col col-span-1 row-span-1 gap-1 justify-center">
           <div className=" max-w-[500px] mx-auto ml-2">
             <div className="flex">
-              <p className="lg:text-7xl text-5xl font-bold mr-1 mb-2">
+              <p className="lg:text-7xl text-5xl font-bold mr-1 mb-2 lg:mt-0 mt-2">
                 Trendsetting{" "}
               </p>
 

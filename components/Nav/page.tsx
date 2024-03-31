@@ -1,5 +1,6 @@
 import React from "react";
 import LogoSrc from "@/images/pfp1.png";
+import { LuCrown } from "react-icons/lu";
 
 function Nav() {
   return (
@@ -13,12 +14,11 @@ function Nav() {
             </div>
 
             <div className="flex items-center">
-              <button className="border border-white h-10 w-10 rounded-lg text-xl">
+              <button className="border-2 border-white h-10 w-10 rounded-lg text-xl">
                 +
               </button>
-              <button className="border border-white h-10 w-16 rounded-lg ml-2">
-                Cart
-              </button>
+
+              <LuCrown className="text-4xl ml-2" />
             </div>
           </div>
         </nav>
