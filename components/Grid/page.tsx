@@ -37,7 +37,7 @@ function Grid() {
             <img
               src={LogoSrc.src}
               alt="Logo"
-              className="rounded-3xl object-fill flex mx-auto justify-center lg:w-[480px] w-[350px] mt-3 lg:mt-5"
+              className="rounded-3xl object-fill flex mx-auto justify-center lg:w-[480px] w-[350px] mt-2 lg:mt-5"
             />
             <div className="flex justify-between mb-1 mx-6 mt-2">
               <button className="text-lg content-center border-2 border-black rounded-full w-28 font-bold">
